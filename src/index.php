@@ -12,7 +12,6 @@ require_once __ROOT__ . 'boot/boot.php';
 \App\Boot::$route_ns = '\\Routes\\';
 \App\Boot::$config_path = __ROOT__ . 'config' . DIRECTORY_SEPARATOR;
 
-
 $boot = \App\Boot::init();
 $boot->listen();
 
